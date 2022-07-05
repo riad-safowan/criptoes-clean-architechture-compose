@@ -17,6 +17,7 @@ import androidx.compose.ui.text.style.TextAlign
 import androidx.compose.ui.unit.dp
 import androidx.hilt.navigation.compose.hiltViewModel
 import androidx.navigation.NavController
+import com.riadsafowan.cryptoes.presentation.Screen
 import com.riadsafowan.cryptoes.presentation.coin_list.components.CoinListItem
 
 @Composable
@@ -30,8 +31,7 @@ fun CoinListScreen(
         LazyColumn(modifier = Modifier.fillMaxSize()){
             items(state.coins.size){coin->
                 CoinListItem(coin = state.coins[coin]){
-                    Toast.makeText(context, it.name, Toast.LENGTH_SHORT).show()
-//                    navController.navigate(Screen.CoinDetailScreen.route+"/${it.id}")
+                    navController.navigate(Screen.CoinDetailScreen.route+"/${it.id}")
                 }
             }
         }
