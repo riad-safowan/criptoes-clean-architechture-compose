@@ -1,4 +1,4 @@
-package com.riadsafowan.cryptoes.domain.repository
+package com.riadsafowan.cryptoes.domain.repositories
 
 import com.riadsafowan.cryptoes.data.remote.dto.CoinDTO
 import com.riadsafowan.cryptoes.data.remote.dto.CoinDetailDTO

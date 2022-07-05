@@ -1,6 +1,4 @@
-package com.riadsafowan.cryptoes.domain.model
-
-import com.riadsafowan.cryptoes.data.remote.dto.CoinDTO
+package com.riadsafowan.cryptoes.domain.models
 
 data class Coin(
     val id: String,

@@ -2,7 +2,7 @@ package com.riadsafowan.cryptoes.data.remote.dto
 
 
 import com.google.gson.annotations.SerializedName
-import com.riadsafowan.cryptoes.domain.model.CoinDetail
+import com.riadsafowan.cryptoes.domain.models.CoinDetail
 
 data class CoinDetailDTO(
     val description: String,
