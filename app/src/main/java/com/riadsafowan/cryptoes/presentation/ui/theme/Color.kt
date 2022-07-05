@@ -1,4 +1,4 @@
-package com.riadsafowan.cryptoes.ui.theme
+package com.riadsafowan.cryptoes.presentation.ui.theme
 
 import androidx.compose.ui.graphics.Color
 
